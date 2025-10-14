@@ -11,7 +11,7 @@ st.title("📊 İş Elanları Analizi")
 st.write("Salam! Bu sizin iş elanları analiz app-inizdir.")
 
 # Fayl yolu təyin et
-FILE_PATH = "main_data.csv"  # və ya "job_data.xlsx"
+FILE_PATH = "job_analysis_data (1).csv"  # və ya "job_data.xlsx"
 
 def clean_city_name(city_text):
     """Şəhər adını təmizlə və standartlaşdır, Bakı rayonlarını ayrıca təsnif et"""
@@ -489,4 +489,5 @@ def main():
         """)
 
 if __name__ == "__main__":
+
     main()
